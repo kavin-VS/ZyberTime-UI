@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="ZyberTime" />
+
+        <item
+            android:id="@+id/nav_option1"
+            android:icon="@drawable/icons_settings"
+            android:title="Settings" />
+
+        <!--<item
+            android:id="@+id/nav_option2"
+            android:icon="@drawable/icons_favorite_folder"
+            android:title="Favourite" />-->
+
+    </group>
+
+    <item android:title="Support Us">
+
+        <menu>
+
+            <group>
+
+                <item
+                    android:id="@+id/nav_option3"
+                    android:checkable="true"
+                    android:icon="@drawable/icons_share"
+                    android:title="Share" />
+
+                <item
+                    android:id="@+id/nav_option4"
+                    android:checkable="true"
+                    android:icon="@drawable/icons_rating"
+                    android:title="Rate Us" />
+
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:checkable="true"
+                    android:icon="@drawable/icons_feedback"
+                    android:title="Feedback" />
+
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>
